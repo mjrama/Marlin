@@ -9,6 +9,13 @@
 
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
+## Fork for Artillery Hornet and it's new Artillery Ruby 1.1 32 bit board
+
+I added support for the new Artillery Ruby board, I haven't tested it yet because I don't know how to upload it to the printer (Working on it), if you have success uploading it, please tell me how.
+
+This is under your own risk, I don't take any responsability for any modification that you do.
+
+This can be build with Marlin Auto Build, and the artillery_ruby enviroment was added as default for this fork.
 
 ## Marlin 2.0
 
