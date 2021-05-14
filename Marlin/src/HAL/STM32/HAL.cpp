@@ -151,7 +151,7 @@ uint16_t HAL_adc_get_result() { return HAL_adc_result; }
 
 // Reset the system to initiate a firmware flash
 //WA due to Artillery_Ruby/variant.cpp
-//void flashFirmware(const int16_t) { HAL_reboot(); }
+void flashFirmware(const int16_t) { HAL_reboot(); }
 
 // Maple Compatibility
 volatile uint32_t systick_uptime_millis = 0;

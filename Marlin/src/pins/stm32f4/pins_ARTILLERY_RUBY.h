@@ -21,9 +21,9 @@
  */
 #pragma once
 
-#if NOT_TARGET(STM32F4)
-  #error "Oops! Select an STM32F4 board in 'Tools > Board.'"
-#elif HOTENDS > 1 || E_STEPPERS > 1
+#include "env_validate.h"
+
+#if HOTENDS > 1 || E_STEPPERS > 1
   #error "Artillery X supports up to 1 hotends / E-steppers."
 #endif
 
@@ -167,8 +167,8 @@
   #define SD_DETECT_PIN                       PD2
 #endif
 
-#if ENABLED(NEWPANEL)
-  #define BTN_EN1                             PB4
-  #define BTN_EN2                             PB3
-  #define BTN_ENC                             PC14
-#endif
+
+#define BTN_EN1                             PB4
+#define BTN_EN2                             PB3
+#define BTN_ENC                             PC14
+

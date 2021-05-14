@@ -166,7 +166,7 @@ WEAK void SystemClock_Config(void)
 }
 #endif
 
-void flashFirmware(const int16_t) {
+/*void flashFirmware(const int16_t) {
   *((unsigned long *)0x2000FFF0) = 0xDEADBEEF; // End of RAM
   NVIC_SystemReset();
-}
+}*/
