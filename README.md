@@ -11,7 +11,7 @@ Additional documentation can be found at the [Marlin Home Page](https://marlinfw
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 ## Fork for Artillery Hornet and it's new Artillery Ruby 1.1 32 bit board
 
-I added support for the new Artillery Ruby board, I uploaded the firmware using DFU mode, soon I will post instructions of how to do this.
+I added support for the new Artillery Ruby board, I uploaded the firmware using DFU mode, there is a PDF file named "How to Upgrade Marlin Firmware On Artillery Hornet" with how I uploaded the firmware to the board.
 
 This is under your own risk, I don't take any responsability for any modification that you do.
 
